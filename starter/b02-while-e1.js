@@ -17,3 +17,9 @@ Affichez
 - les nombres de 1 à 5 à l'aide d'une boucle WHILE
 - Fin du programme
 */
+
+
+for (let i = 1; i < 6; i++) {
+    console.log(i)
+}
+console.log("Fin du programme");

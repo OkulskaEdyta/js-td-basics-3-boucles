@@ -22,3 +22,14 @@ CORRECTION :
 - Incrémentez 'nombre' à chaque itération pour éviter une boucle infinie.
 
 */
+console.log("Avec boucle while : ")
+let number = 1;
+
+while (number <= 5) {
+    console.log(number);
+    number++;
+}
+console.log("Avec boucle for : ")
+for (let i = 1; i < 6; i++) {
+    console.log(i)
+}

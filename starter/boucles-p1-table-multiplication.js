@@ -18,3 +18,34 @@ N.B. Faites-le de deux manières différentes :
 // avec WHILE
 // Répétez le même processus avec une boucle WHILE, en demandant à nouveau la table de multiplication et le nombre de valeurs
 
+
+
+
+// const table = 42;
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`${i<10 ? ' ' : ''} ${i}*${table} = ${i * table}`);
+// }
+
+for (let table = 2; table <= 10; table++) {
+    for (let i = 1; i <= 10; i++) {
+        console.log(`${i < 10 ? ' ' : ''} ${i}*${table} = ${i * table}`);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -21,8 +21,23 @@ EXEMPLE 1 :
   - 2°) en utilisant la boucle FOR
 - Écrivez la table d'évolution des variables
 */
-
+let i = 1;
+for (let i = 1; i <= 10; i++) {
+    console.log(i)
+}
 // 1°) sans boucle : Écrivez ici toutes les instructions à la main, une par une
+let un = 1;
+let deux = 2;
+let trois = 3;
+let quatre = 4;
+let cique = 5;
+let six = 6;
+let sept = 7;
+let huit = 8;
+let neuf = 9;
+let dix = 10;
+
+console.log(un, deux, trois, quatre, cique, six, sept, huit, neuf, dix)
 
 // 2°) avec boucle FOR : Écrivez ici le code de la boucle FOR
 

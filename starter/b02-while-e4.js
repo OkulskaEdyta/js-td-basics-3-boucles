@@ -26,4 +26,9 @@ for (let i = 0; i < 10; i++) {
 }
 
 
-
+let number = parseInt(prompt("Entrez un chiffre : "));
+let i = 0;
+while (i < 10){
+    i++;
+    console.log(`${i} * ${number} = ` + i * number);
+}

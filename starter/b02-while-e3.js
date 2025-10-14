@@ -1,7 +1,7 @@
 /*****************************
-* 6. BOUCLES ET ITÉRATIONS
-* BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
-*/
+ * 6. BOUCLES ET ITÉRATIONS
+ * BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
+ */
 
 /*
 EXEMPLE 3 :
@@ -15,7 +15,7 @@ EXEMPLE 3 :
 //    - Incrémentez 'nombre' pour passer au nombre suivant.
 
 for (let i = 0; i < 21; i++) {
-    if (i % 2 === 0){
+    if (i % 2 === 0) {
         console.log(i)
     }
 }

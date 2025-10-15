@@ -26,15 +26,28 @@ N.B. Faites-le de deux manières différentes :
 //     console.log(`${i<10 ? ' ' : ''} ${i}*${table} = ${i * table}`);
 // }
 
-for (let table = 2; table <= 10; table++) {
-    for (let i = 1; i <= 10; i++) {
-        console.log(`${i < 10 ? ' ' : ''} ${i}*${table} = ${i * table}`);
+// for (let table = 2; table <= 10; table++) {
+//     for (let i = 1; i <= 10; i++) {
+//         console.log(`${i < 10 ? ' ' : ''} ${i}*${table} = ${i * table}`);
+//     }
+// }
+
+
+
+
+
+//CORRECTION EN CLASSE
+
+const table = parseInt(prompt("Quelle table souhaitez-vous avoir?"));
+const x = parseInt(prompt("Combien d'éléments souhaitez-vous avoir?"))
+
+if(!isNaN(table) && !isNaN(x)){
+    for (let i = 1; i <= x; i++) {
+    console.log(`${i} * ${table} =  ${i * table}`)
     }
+} else {
+    console.log("Il me faut un nombre pour table et le nombre d'éléments ")
 }
-
-
-
-
 
 
 

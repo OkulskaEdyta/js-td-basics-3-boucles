@@ -19,7 +19,29 @@
 */
 
 
-for (let i = 3; i > 0 ; i--) {
+for (let i = 3; i > 0; i--) {
     console.log(i);
 }
 console.log("partez !");
+
+
+//CORRECTION EN CLASSE
+// for (let i = 3; i >= 0; i--) {
+//     if (i >= 1) {
+//         console.log(i);
+//     } else {
+//         console.log("partez !");
+//     }
+// }
+
+
+// sur une ligne
+// for (let i = 3; i >= 0; i--) {
+//     if (i >= 1) {
+//         tmp += 1 + ', ';
+//     } else {
+//        tmp += ' partez !'
+//     }
+// }
+//
+

@@ -20,20 +20,30 @@ Ecrivez un programme qui va deviner le nombre auquel vous avez pensé (voir livr
 */
 // Écrivez le code JavaScript pour résoudre cet exercice en essayant de deviner le nombre auquel l'utilisateur pense.
 
+//
+// const number = parseInt(prompt("Pensez très fort à un nombre entier entre 1 et 10 et entrez-le ici (je ne regarde pas, c'est promis !), je vais essayer de le deviner…"));
+// let guess;
+//
+// do {
+//     guess = Math.floor(Math.random() * 10) + 1;
+//
+//     if (guess !== number) {
+//         console.log(`Ce n'est pas ${guess}`);
+//     }
+// }
+// while (guess !== number);
+// console.log(`J'ai trouvé ! Vous pensiez à ${number}`);
 
 
-const number = parseInt(prompt("Pensez très fort à un nombre entier entre 1 et 10 et entrez-le ici (je ne regarde pas, c'est promis !), je vais essayer de le deviner…"));
-let guess;
+// CORRECTION EN CLASSE
 
-do {
-   guess = Math.floor(Math.random() * 10) + 1;
-
-   if (guess !== number){
-       console.log(`Ce n'est pas ${guess}`);
-   }
+const userNumber = parseInt(prompt("Pensez très fort à un nombre entier entre 1 et 10 et entrez-le ici (je ne regarde pas, c'est promis !), je vais essayer de le deviner…"));
+let i = Math.ceil(Math.random() * 10);
+if (!isNaN(userNumber)) {
+    while (i !== userNumber) {
+        console.log(`Ce n'est pas ${i}`);
+        i = Math.ceil(Math.random() * 10);
+    }
+    console.log(`J'ai trouvé ! Vous pensiez à ${userNumber}`)
 }
-while (guess !== number);
-    console.log(`J'ai trouvé ! Vous pensiez à ${number}`);
-
-
 

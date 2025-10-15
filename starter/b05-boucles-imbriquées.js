@@ -28,3 +28,13 @@ for (let i = 0; i < 2; i++) {
         console.log(`i = ${i}, j = ${j}`)
     }
 }
+
+
+//correction en classe
+
+for (let i = 1; i <= 5; i++) {
+    console.log('i = ' +i)
+    for (let j = 1; j<10;j++){
+        console.log('j = ' +j)
+    }
+}

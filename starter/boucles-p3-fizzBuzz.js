@@ -26,3 +26,78 @@ for (let i = 1; i <= 100; i++) {
     }
 }
 
+
+
+//CORRECTION EN CLASSE
+
+//FORI
+for (let i = 1; i <= 100; i++) {
+    // 100 => encois 100 x true et 1x false donc 101
+    // i++ => s'execute 100x faut que la condition soit fausse aussi
+
+    // i <= 100 => une opération car il y a un operateur (=) et deux operandes ( i 100) et c'est aussi une operation de sortie, expression booleane true ou false,
+    //i++ => mise a jour de la variable mais aussi c'est une expression car elle a un operateur d'incrementation (++)
+    //let i = 1 => declaration et initialisation, c'est une instruction, si let.
+    // i = 1 => expression
+    if (i % 3 === 0 && i % 5 === 0) {
+        //i % 3 === 0 && i % 5 === 0 => une expression composée de deux expression
+//else if (i % 3 === 0){
+//     console.log("Fizz"); => structure de contrôle, ca veut rien
+        //i % 5  expression numerique, vaut 0 ou moins que 5
+
+        //{
+        //   console.log("Fizz");
+        // } = > un block
+
+        console.log("FizzBuzz");
+    } else if (i % 3 === 0) {
+        console.log("Fizz");
+    } else if (i % 5 === 0) {
+        console.log("Buzz")
+    } else {
+        console.log(i)
+    }
+}
+
+//tout = structure de controle
+
+
+
+
+
+//FOR
+// let i = 1
+//
+// for (;i <= 100;) {
+//   if (i % 15 === 0) {
+//     console.log("FizzBuzz");
+//   } else if (i % 3 === 0) {
+//     console.log("Fizz");
+//   } else if (i % 5 === 0) {
+//     console.log("Buzz")
+//   } else {
+//     console.log(i)
+//   }
+//   i++
+// }
+
+
+
+
+
+
+// WHILE
+// let i = 1
+//
+// while (i <= 100) {
+//   if (i % 15 === 0) {
+//     console.log("FizzBuzz");
+//   } else if (i % 3 === 0) {
+//     console.log("Fizz");
+//   } else if (i % 5 === 0) {
+//     console.log("Buzz")
+//   } else {
+//     console.log(i)
+//   }
+//   i++;
+// }

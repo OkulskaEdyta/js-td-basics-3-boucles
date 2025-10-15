@@ -43,7 +43,28 @@ while (lettre === "x") {
 //     }
 // }
 
-
 // code avec le bonus
+
+
+
+//CORRECTION EN CLASSE
+//Manière nr1
+let userInput = '';
+let letters = '';
+
+while (userInput !=='X'){
+    userInput = prompt("Tapez une lettre ou X pour sortir : ");
+    letters += userInput // affiche tout ce que user tape sur une ligne apres avoir taper 'x'
+}
+console.log(letters);
+
+
+//Manière nr2
+let username = NaN;
+while (isNaN(username)){
+    username = parseInt(prompt("Tapez une lettre ou X pour sortir : "));
+}
+console.log(username);
+
 
 

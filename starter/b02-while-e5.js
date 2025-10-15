@@ -46,13 +46,12 @@ while (lettre === "x") {
 // code avec le bonus
 
 
-
 //CORRECTION EN CLASSE
 //Manière nr1
 let userInput = '';
 let letters = '';
 
-while (userInput !=='X'){
+while (userInput !== 'X') {
     userInput = prompt("Tapez une lettre ou X pour sortir : ");
     letters += userInput // affiche tout ce que user tape sur une ligne apres avoir taper 'x'
 }
@@ -61,10 +60,48 @@ console.log(letters);
 
 //Manière nr2
 let username = NaN;
-while (isNaN(username)){
+while (isNaN(username)) {
     username = parseInt(prompt("Tapez une lettre ou X pour sortir : "));
 }
 console.log(username);
 
 
+//fonction
+// maniere 1 : declarer une fonction
+function direBonjour() {
+    console.log("Bonjour !")
+}
 
+direBonjour(); // operateur d'appel de fonction, donc une operande, elle sera visible dans la console
+
+
+//manière nr2
+const direBo = function () { // la fonction n'as pas de nom ici, tandis que plus haut si
+
+}
+//Manière nr3 : Arrow function
+const direBon = () => { //arrow function parce que ya une grosse fleche ici (ce n'est pas la meme chose que maniere 1 et 2)
+
+}
+
+// Exercice comment faire pour que un prénom s'affiche apres Bonjour
+let prenom;
+function direBonjourr() {
+    console.log("Bonjour !" + prenom)
+}
+prenom = 'Daniel'
+direBonjourr();
+
+//ou
+
+function direBonjourrr(prenom, nom) { //fonction peut avoir 0 ou plus parametres et peut retourner
+    console.log("Bonjour " + prenom + ' ' +nom) // paramètre logique
+}
+direBonjourrr('Daniel', 'Schreurs'); // paramètre réel
+
+
+function direBonjourrrr(prenom, nom) {
+    return "Bonjour " + prenom + ' ' +nom
+}
+
+console.log(direBonjourrrr('Daniel', 'Schreurs'));
